@@ -10,12 +10,12 @@ void	RegisterCallback()
 	GEventManager->AddEventHandler(kEventOnRenderBehindHud, OnRenderBehindHud);
 
 	//ORBWALK
-	GEventManager->AddEventHandler(kEventOrbwalkBeforeAttack, OnOrbwalkBeforeAttack);
-	GEventManager->AddEventHandler(kEventOrbwalkOnAttack, OnOrbwalkOnAttack);
-	GEventManager->AddEventHandler(kEventOrbwalkAfterAttack, OnOrbwalkAfterAttack);
-	GEventManager->AddEventHandler(kEventOrbwalkTargetChange, OnOrbwalkTargetChange);
-	GEventManager->AddEventHandler(kEventOrbwalkNonKillableMinion, OnOrbwalkNonKillableMinion);
-	GEventManager->AddEventHandler(kEventOrbwalkFindTarget, OnOrbwalkFindTarget);
+	//GEventManager->AddEventHandler(kEventOrbwalkBeforeAttack, OnOrbwalkBeforeAttack);
+	//GEventManager->AddEventHandler(kEventOrbwalkOnAttack, OnOrbwalkOnAttack);
+	//GEventManager->AddEventHandler(kEventOrbwalkAfterAttack, OnOrbwalkAfterAttack);
+	//GEventManager->AddEventHandler(kEventOrbwalkTargetChange, OnOrbwalkTargetChange);
+	//GEventManager->AddEventHandler(kEventOrbwalkNonKillableMinion, OnOrbwalkNonKillableMinion);
+	//GEventManager->AddEventHandler(kEventOrbwalkFindTarget, OnOrbwalkFindTarget);
 
 	GEventManager->AddEventHandler(kEventOnGameEnd, OnGameEnd);
 
@@ -33,12 +33,12 @@ void	UnregisterCallback()
 	GEventManager->RemoveEventHandler(kEventOnRenderBehindHud, OnRenderBehindHud);
 
 	//ORBWALK
-	GEventManager->RemoveEventHandler(kEventOrbwalkBeforeAttack, OnOrbwalkBeforeAttack);
-	GEventManager->RemoveEventHandler(kEventOrbwalkOnAttack, OnOrbwalkOnAttack);
-	GEventManager->RemoveEventHandler(kEventOrbwalkAfterAttack, OnOrbwalkAfterAttack);
-	GEventManager->RemoveEventHandler(kEventOrbwalkTargetChange, OnOrbwalkTargetChange);
-	GEventManager->RemoveEventHandler(kEventOrbwalkNonKillableMinion, OnOrbwalkNonKillableMinion);
-	GEventManager->RemoveEventHandler(kEventOrbwalkFindTarget, OnOrbwalkFindTarget);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkBeforeAttack, OnOrbwalkBeforeAttack);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkOnAttack, OnOrbwalkOnAttack);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkAfterAttack, OnOrbwalkAfterAttack);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkTargetChange, OnOrbwalkTargetChange);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkNonKillableMinion, OnOrbwalkNonKillableMinion);
+	//GEventManager->RemoveEventHandler(kEventOrbwalkFindTarget, OnOrbwalkFindTarget);
 
 	GEventManager->RemoveEventHandler(kEventOnGameEnd, OnGameEnd);
 
